@@ -8,6 +8,8 @@
 - If no file is open it will open the project root.
 - You can also right click to open file/directory from the tree view
 
+This project is a replacement for [atom-terminal](https://github.com/karan/atom-terminal) on OSX inspired by [MacTerminal](https://github.com/afterdesign/MacTerminal) for SublimeText.
+
 ## Key bindings:
 
 `ctrl+shift+t` - open current file in a new Terminal tab
