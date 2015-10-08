@@ -1,12 +1,16 @@
 # atom-mac-terminal
 
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![experimental](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Opens selected file in a new Terminal tab on OSX
+[Atom](http://atom.io) plugin that opens selected file in a new Terminal tab on OSX.
 
-## Usage
+- If run from the command palette / or keyboard shortcut it will open currently edited file directory
+- If no file is open it will open the project root.
+- You can also right click to open file/directory from the tree view
 
-[![NPM](https://nodei.co/npm/atom-mac-terminal.png)](https://www.npmjs.com/package/atom-mac-terminal)
+## Key bindings:
+
+`ctrl+shift+t` - open current file in a new Terminal tab
 
 ## License
 
