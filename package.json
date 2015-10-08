@@ -1,6 +1,6 @@
 {
   "name": "atom-mac-terminal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Opens selected file in a new Terminal tab on OSX",
   "main": "lib/atom-mac-terminal.js",
   "license": "MIT",
