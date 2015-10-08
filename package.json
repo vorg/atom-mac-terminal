@@ -1,0 +1,38 @@
+{
+  "name": "atom-mac-terminal",
+  "version": "1.0.0",
+  "description": "Opens selected file in a new Terminal tab on OSX",
+  "main": "lib/atom-mac-terminal.js",
+  "license": "MIT",
+  "author": {
+    "name": "Marcin Ignac",
+    "email": "marcin.ignac@gmail.com",
+    "url": "https://github.com/vorg"
+  },
+  "dependencies": {
+    "applescript": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "atom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vorg/atom-mac-terminal.git"
+  },
+  "homepage": "https://github.com/vorg/atom-mac-terminal",
+  "bugs": {
+    "url": "https://github.com/vorg/atom-mac-terminal/issues"
+  },
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-mac-terminal:open"
+    ]
+  }
+}
