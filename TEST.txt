@@ -1,2 +1,0 @@
-'context-menu':
-    '.platform-darwin .tree-view .file': [{label: 'Open in Terminal', command: 'atom-mac-terminal:open'}]
